@@ -18,11 +18,6 @@ sudo apt-get update -y
 # Install xvfb
 sudo apt-get install -y xvfb
 
-# Install playwright
-yes | npx playwright install
-# # Install playwright dependencies
-yes | npx playwright install-deps
-
 git clone https://github.com/Amit91848/nvim ~/.config/nvim
 
 # Benchmarking different ways of installing nvim
